@@ -1,0 +1,55 @@
+In Python, a list is a built-in data structure that allows us to store multiple items in a single variable. Lists are one of the most used data structures in Python because they are mutable, ordered, and can hold different types of elements. Lists provide a flexible way to handle collections of data and come with many useful built-in methods.
+
+Characteristics of Python Lists
+List in Python is a data structure, which is:
+Ordered: The data elements of list maintain their order of insertion. If an element is inserted at a specific index, it remains there unless it is explicitly changed.
+Changeable (Mutable): Lists in Python allow modification of their elements after creation.
+Heterogeneous (Different Data Types): A single list can store multiple data types like integers, st
+Contains Duplicates: List is a data structure that can store duplicate values.rings, floats, and even another list.
+Lists in Python can be created by enclosing elements within square brackets [], separated by commas.
+
+Accessing List Elements
+Elements in a list can be accessed using indexing. Python uses zero-based indexing, meaning the first element has an index of 0. We can use the index number enclosed with the square brackets '[]' to access the element present at the given position.
+
+Adding Elements to the List
+Python offers accessibility to add elements to a list. This can be achieved using the various options available for us:
+append(): Adds a single element to the end of the list.
+insert(): Inserts an element at a specific index.
+extend(): Adds multiple elements to the end of the list.
+
+Updating Elements into a List
+Elements in a list can be updated using indexing.
+
+Removing Elements from the List
+Python provides several methods to remove elements from a list:
+remove(value): Removes the first occurrence of the value.
+pop(index): Removes the element at a specific index (or the last element by default).
+del statement: Deletes an element or the entire list.  The del keyword has deleted the element from the list at the specified index.
+
+Iterating Over Lists
+In Python, we can iterate over lists using the loops.
+Example
+Let us take an example showing the use of 'for' loop and 'while' loop to iterate over the elements of a given list.
+
+Nested Lists
+Nested List is a list in Python that consists of multiple sub-lists separated by commas. The elements in each sub-list can be of different data types. The inner lists (or sub-list) can again consist of other lists, giving rise to the multiple levels of nesting.
+In Python, we can use nested lists to create hierarchical data structures, matrices or simply, a list of lists. Python provides various tools to handle nested lists efficiently and effectively, allowing users to perform standard functions on them.
+
+Finding the Length of a List
+Python provides a built-in function called len() in order to determine the number of elements in a list.
+Syntax:
+It has the following syntax:
+len(list_name)  
+
+Sorting a List
+Python provides a method called sort() that allows users to sort the elements of a list in place.
+Python also offers a function called sorted() which works similar to the sort() method; however, it returns a new list.
+
+Reversing a List
+Python List provides a method called reverse() that allows users to reverse the order of the elements in the list.
+
+Finding the Largest and Smallest Number in a List
+To find the largest and smallest number in a list, we can make use of max() and min() functions
+
+Calculating Sum of Elements in a List
+In order to calculate the sum of elements in a list, we can use Python's built-in sum() function
